@@ -23,9 +23,9 @@ const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').match
 
 const bootLines = [
   { text: '$ whoami --role', delay: 20 },
-  { text: 'Offensive Security & AI Security Engineer', result: true, delay: 8 },
+  { text: 'Offensive Security, Defensive Security, AI Security Engineer & GRC Analyst', result: true, delay: 8 },
   { text: '$ scan --target career.log --recon', delay: 20 },
-  { text: 'VAPT · SOC · OT/ICS Defense · Adversarial ML', result: true, delay: 8 },
+  { text: 'VAPT · AppSec · SOC · NOC · OT/ICS Defense · GRC · Adversarial ML', result: true, delay: 8 },
   { text: '$ status', delay: 20 },
   { text: 'open to opportunities: true', result: true, delay: 8 },
 ];
