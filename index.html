@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pratham Bhanushali — Offensive Security &amp; AI Security</title>
+<meta name="description" content="Pratham Bhanushali — Cybersecurity engineer focused on VAPT, OT/ICS security, and AI-driven defense.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scanlines" aria-hidden="true"></div>
+
+<nav class="nav" id="nav">
+  <a href="#top" class="nav__brand">PB<span class="nav__brand-dot">_</span></a>
+  <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav__links" id="navLinks">
+    <li><a href="#about"><span class="idx">01</span>about</a></li>
+    <li><a href="#focus"><span class="idx">02</span>focus</a></li>
+    <li><a href="#stack"><span class="idx">03</span>stack</a></li>
+    <li><a href="#projects"><span class="idx">04</span>projects</a></li>
+    <li><a href="#chain"><span class="idx">05</span>method</a></li>
+    <li><a href="#background"><span class="idx">06</span>background</a></li>
+    <li><a href="#contact" class="nav__cta"><span class="idx">07</span>contact</a></li>
+  </ul>
+</nav>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <div class="terminal" id="terminal">
+        <div class="terminal__bar">
+          <span class="dot dot--r"></span><span class="dot dot--y"></span><span class="dot dot--g"></span>
+          <span class="terminal__title">pratham@ops-console: ~</span>
+        </div>
+        <div class="terminal__body" id="terminalBody">
+          <div class="terminal__line" data-text="$ whoami --role"></div>
+        </div>
+      </div>
+
+      <h1 class="hero__name">
+        Pratham Bhanushali
+      </h1>
+      <p class="hero__role">
+        Offensive Security &amp; AI Security Engineer
+        <span class="hero__role-sub">VAPT &middot; SOC &middot; OT/ICS Defense &middot; Adversarial ML</span>
+      </p>
+      <p class="hero__desc">
+        M.Tech candidate in AI &amp; Data Science (Cybersecurity) at NFSU Gandhinagar. I break systems on
+        purpose &mdash; web, mobile, and industrial &mdash; then turn what I find into detections, mitigations,
+        and automated defenses.
+      </p>
+      <div class="hero__cta">
+        <a href="#projects" class="btn btn--primary">View projects</a>
+        <a href="#contact" class="btn btn--ghost">Get in touch</a>
+      </div>
+      <div class="hero__links">
+        <a href="https://github.com/prathambhanushali30" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/pratham-bhanushali-16b100215" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://tryhackme.com/p/MrCypherHat" target="_blank" rel="noopener">TryHackMe</a>
+        <a href="mailto:prathambhanushali00@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="hero__scroll" aria-hidden="true"><span></span>scroll</div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="section__head">
+      <span class="eyebrow">/ 01 &middot; about</span>
+      <h2>From exploit to defense.</h2>
+    </div>
+    <div class="about__grid">
+      <p class="about__lead">
+        I'm a cybersecurity engineer and M.Tech candidate who works across the full loop &mdash;
+        finding vulnerabilities, proving they're real, and closing them with tooling that scales.
+        My work spans web and mobile application penetration testing, industrial control system
+        defense, and security automation built with Python and applied ML.
+      </p>
+      <div class="stat-row">
+        <div class="stat">
+          <span class="stat__num">2026</span>
+          <span class="stat__label">M.Tech completion<br>AI &amp; DS (Cybersecurity)</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">8</span>
+          <span class="stat__label">hands-on security<br>&amp; AI projects shipped</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">3</span>
+          <span class="stat__label">professional<br>certifications</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOCUS ============ -->
+  <section class="section section--panel" id="focus">
+    <div class="section__head">
+      <span class="eyebrow">/ 02 &middot; focus</span>
+      <h2>Where I operate.</h2>
+    </div>
+    <div class="focus__grid">
+      <article class="focus-card focus-card--blue">
+        <span class="focus-card__tag">OFFENSIVE &amp; DEFENSIVE</span>
+        <h3>VAPT &amp; SOC</h3>
+        <p>Web &amp; mobile application security testing, vulnerability assessment, threat hunting,
+        and log analysis &mdash; grounded in the OWASP Top 10 and MITRE ATT&amp;CK.</p>
+        <ul>
+          <li>Web &amp; mobile AppSec</li>
+          <li>Vulnerability assessment</li>
+          <li>SIEM &amp; log analysis</li>
+        </ul>
+      </article>
+      <article class="focus-card focus-card--amber">
+        <span class="focus-card__tag">OT / ICS &amp; GRC</span>
+        <h3>Industrial Defense</h3>
+        <p>Hardware-in-the-loop simulation and protocol-level traffic analysis across SCADA
+        environments, mapped against NIST 800-82 and the Purdue Model.</p>
+        <ul>
+          <li>DNP3 / EtherNet-IP / S7 analysis</li>
+          <li>Purdue Model &amp; NIST 800-82</li>
+          <li>ISO, GDPR, DPDP compliance</li>
+        </ul>
+      </article>
+      <article class="focus-card focus-card--cyan">
+        <span class="focus-card__tag">AI &amp; AUTOMATION</span>
+        <h3>Security ML</h3>
+        <p>Applying machine learning to security workflows &mdash; from AI-assisted vulnerability
+        triage to agent-based threat intelligence and secure MLOps pipelines.</p>
+        <ul>
+          <li>AI-assisted VAPT</li>
+          <li>ML-based intrusion detection</li>
+          <li>Secure MLOps &amp; agent pipelines</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ STACK ============ -->
+  <section class="section" id="stack">
+    <div class="section__head">
+      <span class="eyebrow">/ 03 &middot; arsenal</span>
+      <h2>Tools &amp; technologies.</h2>
+    </div>
+    <div class="stack__groups">
+      <div class="stack__group">
+        <h3>Offensive &amp; Network</h3>
+        <div class="pills">
+          <span>Burp Suite</span><span>OWASP ZAP</span><span>Metasploit</span><span>Nmap</span>
+          <span>Wireshark</span><span>Nessus</span><span>SQLMap</span><span>MITRE ATT&amp;CK</span>
+        </div>
+      </div>
+      <div class="stack__group">
+        <h3>Mobile &amp; Reverse Engineering</h3>
+        <div class="pills">
+          <span>MobSF</span><span>Frida</span><span>JADX</span><span>APKTool</span><span>Drozer</span>
+        </div>
+      </div>
+      <div class="stack__group">
+        <h3>Malware &amp; Forensics</h3>
+        <div class="pills">
+          <span>VirusTotal</span><span>Any.Run</span><span>Hybrid Analysis</span><span>Static/Dynamic Analysis</span>
+        </div>
+      </div>
+      <div class="stack__group">
+        <h3>OT / ICS Protocols</h3>
+        <div class="pills">
+          <span>DNP3</span><span>EtherNet/IP</span><span>S7</span><span>Labshock</span>
+          <span>Purdue Model</span><span>NIST 800-82</span>
+        </div>
+      </div>
+      <div class="stack__group">
+        <h3>AI &amp; Machine Learning</h3>
+        <div class="pills">
+          <span>TensorFlow</span><span>PyTorch</span><span>Scikit-learn</span><span>LangChain</span><span>CrewAI</span>
+        </div>
+      </div>
+      <div class="stack__group">
+        <h3>Platforms &amp; Languages</h3>
+        <div class="pills">
+          <span>Python</span><span>Bash</span><span>C++</span><span>SQL</span><span>Dart</span>
+          <span>Docker</span><span>FastAPI</span><span>MLflow</span><span>Splunk</span><span>QRadar</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section section--panel" id="projects">
+    <div class="section__head">
+      <span class="eyebrow">/ 04 &middot; projects</span>
+      <h2>Selected work.</h2>
+    </div>
+    <div class="projects__grid">
+
+      <article class="project">
+        <div class="project__head">
+          <span class="project__domain project__domain--amber">OT / ICS Security</span>
+        </div>
+        <h3>Abhedya-Pratihar Unified Gateway</h3>
+        <p class="project__sub">AI-based kill-switch for OT environments</p>
+        <p>Real-time defensive mechanism tested through hardware-in-the-loop simulation. Analyzes
+        DNP3, EtherNet/IP, and S7 traffic to flag anomalous communication, with automated model
+        switching and drift detection.</p>
+        <div class="project__tags"><span>Labshock</span><span>Docker</span><span>DNP3</span><span>S7</span></div>
+      </article>
+
+      <article class="project">
+        <div class="project__head">
+          <span class="project__domain project__domain--violet">AI Agents &amp; Threat Intel</span>
+          <a href="https://github.com/PrathamBhanushali30/Email_analysis_AI_Agent" target="_blank" rel="noopener" class="project__link">View repo &rarr;</a>
+        </div>
+        <h3>Email Analysis AI Agent</h3>
+        <p class="project__sub">Multi-agent phishing &amp; malware triage</p>
+        <p>Multi-agent workflow that triages phishing and malicious emails end-to-end &mdash; pulling
+        behavioral signals, cross-checking threat intel, scoring severity, and firing automated alerts.</p>
+        <div class="project__tags"><span>CrewAI</span><span>VirusTotal</span><span>Hybrid Analysis</span></div>
+      </article>
+
+      <article class="project">
+        <div class="project__head">
+          <span class="project__domain project__domain--cyan">DevSecOps &amp; MLOps</span>
+          <a href="https://github.com/PrathamBhanushali30/watchtower-ai" target="_blank" rel="noopener" class="project__link">View repo &rarr;</a>
+        </div>
+        <h3>MLOps for Secure Model Deployment</h3>
+        <p class="project__sub">Watchtower AI &mdash; secure ML pipeline</p>
+        <p>Secure MLOps pipeline with CI/CD integration, model tracking, containerization, and
+        monitoring &mdash; security controls applied across deployment and supporting infrastructure.</p>
+        <div class="project__tags"><span>FastAPI</span><span>Docker</span><span>MLflow</span><span>Grafana</span></div>
+      </article>
+
+      <article class="project">
+        <div class="project__head">
+          <span class="project__domain project__domain--green">Network Security &amp; ML</span>
+          <a href="https://github.com/PrathamBhanushali30/AI-Powered-Intrusion-Detection-System-IDS" target="_blank" rel="noopener" class="project__link">View repo &rarr;</a>
+        </div>
+        <h3>AI-Powered Intrusion Detection System</h3>
+        <p class="project__sub">Deep learning on live network traffic</p>
+        <p>ML-based IDS that applies deep learning to network and log data, surfacing suspicious
+        behavior and potential breaches that signature-based tools tend to miss.</p>
+        <div class="project__tags"><span>TensorFlow</span><span>Scikit-learn</span><span>Wireshark</span></div>
+      </article>
+
+      <article class="project">
+        <div class="project__head">
+          <span class="project__domain project__domain--red">Offensive Security &amp; AI</span>
+          <a href="https://github.com/PrathamBhanushali30/AI-in-VAPT-Smart-Vulnerability-Scanner" target="_blank" rel="noopener" class="project__link">View repo &rarr;</a>
+        </div>
+        <h3>AI in VAPT — Smart Vulnerability Scanner</h3>
+        <p class="project__sub">AI-assisted web app security testing</p>
+        <p>Vulnerability classification, risk prioritization, and automated reporting layered on
+        top of standard web application security testing workflows.</p>
+        <div class="project__tags"><span>OWASP ZAP</span><span>Burp Suite</span><span>Scikit-learn</span></div>
+      </article>
+
+      <article class="project">
+        <div class="project__head">
+          <span class="project__domain project__domain--indigo">Mobile Security</span>
+        </div>
+        <h3>Android Application Pentesting Toolkit</h3>
+        <p class="project__sub">Static, dynamic &amp; reverse-engineering workflow</p>
+        <p>Hands-on Android security testing that surfaced insecure data storage, hardcoded
+        secrets, and exposed components, combining static analysis, dynamic instrumentation,
+        and reverse engineering.</p>
+        <div class="project__tags"><span>Frida</span><span>MobSF</span><span>JADX</span><span>APKTool</span></div>
+      </article>
+
+      <article class="project">
+        <div class="project__head">
+          <span class="project__domain project__domain--red">Web AppSec</span>
+        </div>
+        <h3>Web Application Pentesting</h3>
+        <p class="project__sub">SQLi, XSS, CSRF &amp; file-upload validation</p>
+        <p>End-to-end penetration testing of vulnerable web applications, documenting attack
+        evidence, impact, and remediation recommendations per the OWASP Top 10.</p>
+        <div class="project__tags"><span>Burp Suite</span><span>SQLMap</span><span>Metasploit</span></div>
+      </article>
+
+      <article class="project">
+        <div class="project__head">
+          <span class="project__domain project__domain--violet">NLP &amp; LLMs</span>
+          <a href="https://github.com/PrathamBhanushali30/document-chatbot" target="_blank" rel="noopener" class="project__link">View repo &rarr;</a>
+        </div>
+        <h3>Document Chatbot</h3>
+        <p class="project__sub">Retrieval-augmented document Q&amp;A</p>
+        <p>NLP-driven chatbot that answers domain-specific queries from uploaded documents,
+        using LangChain for semantic retrieval and contextual understanding.</p>
+        <div class="project__tags"><span>LangChain</span><span>OpenAI API</span><span>Python</span></div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ METHOD / KILL CHAIN ============ -->
+  <section class="section chain-section" id="chain">
+    <div class="section__head">
+      <span class="eyebrow">/ 05 &middot; method</span>
+      <h2>How I work through a problem.</h2>
+      <p class="section__note">Every engagement follows the same loop, whether it's a web app, an APK, or an ICS network.</p>
+    </div>
+
+    <div class="chain" id="chain-visual">
+      <div class="chain__line"><div class="chain__pulse" id="chainPulse"></div></div>
+      <div class="chain__step">
+        <span class="chain__marker">01</span>
+        <h3>Recon</h3>
+        <p>Map the attack surface &mdash; assets, entry points, protocols in play.</p>
+      </div>
+      <div class="chain__step">
+        <span class="chain__marker">02</span>
+        <h3>Discovery</h3>
+        <p>Identify weaknesses through manual testing and automated scanning.</p>
+      </div>
+      <div class="chain__step">
+        <span class="chain__marker">03</span>
+        <h3>Validation</h3>
+        <p>Prove exploitability &mdash; not just "possible," but demonstrably real.</p>
+      </div>
+      <div class="chain__step">
+        <span class="chain__marker">04</span>
+        <h3>Mitigation</h3>
+        <p>Turn findings into concrete, prioritized remediation.</p>
+      </div>
+      <div class="chain__step">
+        <span class="chain__marker">05</span>
+        <h3>Automation</h3>
+        <p>Encode the fix into tooling so the same gap doesn't reopen.</p>
+      </div>
+    </div>
+
+    <blockquote class="chain__quote">
+      "I look beyond &lsquo;can I exploit it?&rsquo; &mdash; connecting offensive findings to
+      detection, mitigation, and automated defense."
+    </blockquote>
+  </section>
+
+  <!-- ============ BACKGROUND (education + certs) ============ -->
+  <section class="section section--panel" id="background">
+    <div class="section__head">
+      <span class="eyebrow">/ 06 &middot; background</span>
+      <h2>Education &amp; certifications.</h2>
+    </div>
+
+    <div class="edu">
+      <div class="edu__item">
+        <span class="edu__years">2024 &ndash; 2026</span>
+        <div>
+          <h3>M.Tech, Artificial Intelligence &amp; Data Science (Cybersecurity)</h3>
+          <p>National Forensic Sciences University, Gandhinagar</p>
+          <span class="edu__note">Network Security &middot; Malware Analysis &middot; Digital Forensics &middot; Cryptography &middot; Risk Assessment</span>
+        </div>
+      </div>
+      <div class="edu__item">
+        <span class="edu__years">2020 &ndash; 2024</span>
+        <div>
+          <h3>B.Tech, Computer Engineering</h3>
+          <p>Silver Oak University, Ahmedabad</p>
+          <span class="edu__note">Networking &middot; Operating Systems &middot; AI &middot; Machine Learning &middot; Databases</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="certs">
+      <div class="cert">
+        <h3>Google Cybersecurity Professional Certificate</h3>
+        <span>Coursera</span>
+      </div>
+      <div class="cert">
+        <h3>SOC Analyst Learning Path</h3>
+        <span>Let's Defend</span>
+      </div>
+      <div class="cert">
+        <h3>QRadar SIEM: UI &amp; Architecture (v7.5)</h3>
+        <span>IBM</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact" id="contact">
+    <div class="section__head">
+      <span class="eyebrow">/ 07 &middot; contact</span>
+      <h2>Open to cybersecurity, VAPT, OT/ICS &amp; AI security roles.</h2>
+    </div>
+    <div class="contact__grid">
+      <a class="contact__card" href="mailto:prathambhanushali00@gmail.com">
+        <span class="contact__label">Email</span>
+        <span class="contact__value">prathambhanushali00@gmail.com</span>
+      </a>
+      <a class="contact__card" href="tel:+918735093123">
+        <span class="contact__label">Phone</span>
+        <span class="contact__value">+91&nbsp;87350&nbsp;93123</span>
+      </a>
+      <a class="contact__card" href="https://www.linkedin.com/in/pratham-bhanushali-16b100215" target="_blank" rel="noopener">
+        <span class="contact__label">LinkedIn</span>
+        <span class="contact__value">/in/pratham-bhanushali</span>
+      </a>
+      <a class="contact__card" href="https://github.com/prathambhanushali30" target="_blank" rel="noopener">
+        <span class="contact__label">GitHub</span>
+        <span class="contact__value">@prathambhanushali30</span>
+      </a>
+      <a class="contact__card" href="https://tryhackme.com/p/MrCypherHat" target="_blank" rel="noopener">
+        <span class="contact__label">TryHackMe</span>
+        <span class="contact__value">MrCypherHat</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>&copy; 2026 Pratham Bhanushali</span>
+  <span class="footer__tag">built &amp; deployed via GitHub Pages</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
